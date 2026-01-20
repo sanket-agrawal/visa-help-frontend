@@ -10,30 +10,30 @@ export default function Navbar() {
           href="/"
           className="text-lg font-semibold text-gray-900"
         >
-          VisaAssist
+          QueueCut
         </Link>
 
         {/* Navigation Links */}
         <div className="hidden items-center gap-8 md:flex">
           <Link
-            href="/countries"
+            href="/salons"
             className="text-sm font-medium text-gray-600 hover:text-gray-900"
           >
-            Countries
+            Salons
           </Link>
 
           <Link
-            href="/documents"
+            href="/how-it-works"
             className="text-sm font-medium text-gray-600 hover:text-gray-900"
           >
-            Documents
+            How it Works
           </Link>
 
           <Link
-            href="/pricing"
+            href="/for-salon-owners"
             className="text-sm font-medium text-gray-600 hover:text-gray-900"
           >
-            Pricing
+            For Salon Owners
           </Link>
         </div>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
           </Link>
 
           <Button>
-            Get Started
+            Book Slot
           </Button>
         </div>
       </nav>

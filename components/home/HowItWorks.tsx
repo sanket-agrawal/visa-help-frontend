@@ -1,18 +1,18 @@
 const steps = [
   {
-    title: "Select Country & Visa Type",
+    title: "Choose a Salon",
     description:
-      "Choose your destination and visa category to get precise requirements.",
+      "Browse nearby salons, services, and real-time availability in your area.",
   },
   {
-    title: "Enter Your Details",
+    title: "Book a Slot or Join Queue",
     description:
-      "Provide travel purpose, employment details, and supporting information.",
+      "Select a time slot in advance or join the live queue for walk-in visits.",
   },
   {
-    title: "Get Embassy-Ready Documents",
+    title: "Arrive on Time, No Waiting",
     description:
-      "Receive professionally structured cover letters and checklists.",
+      "Get notified when your turn is near and walk in at the right moment.",
   },
 ];
 

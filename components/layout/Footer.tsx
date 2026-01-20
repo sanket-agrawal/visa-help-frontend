@@ -8,11 +8,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-sm font-semibold">
-              VisaAssist
+              QueueCut
             </h3>
             <p className="mt-3 text-sm text-gray-600">
-              Embassy-ready visa documents and
-              country-specific guidance.
+              Book salon slots, join live queues,
+              and avoid unnecessary waiting.
             </p>
           </div>
 
@@ -23,18 +23,18 @@ export default function Footer() {
             </h4>
             <ul className="mt-4 space-y-2 text-sm text-gray-600">
               <li>
-                <Link href="/documents" className="hover:text-gray-900">
-                  Documents
+                <Link href="/salons" className="hover:text-gray-900">
+                  Find Salons
                 </Link>
               </li>
               <li>
-                <Link href="/countries" className="hover:text-gray-900">
-                  Supported Countries
+                <Link href="/how-it-works" className="hover:text-gray-900">
+                  How it Works
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="hover:text-gray-900">
-                  Pricing
+                <Link href="/for-salon-owners" className="hover:text-gray-900">
+                  For Salon Owners
                 </Link>
               </li>
             </ul>
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-gray-200 pt-6 text-sm text-gray-500">
-          © {new Date().getFullYear()} VisaAssist. All rights reserved.
+          © {new Date().getFullYear()} QueueCut. All rights reserved.
         </div>
       </div>
     </footer>

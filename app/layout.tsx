@@ -3,9 +3,9 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Visa Document Assistant",
+  title: "QueueCut | Salon Slot Booking & Live Queue",
   description:
-    "Generate embassy-ready visa cover letters and document checklists.",
+    "Book salon slots, join live walk-in queues, and avoid long waiting times at local salons.",
 };
 
 export default function RootLayout({
